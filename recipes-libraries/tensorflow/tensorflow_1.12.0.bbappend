@@ -1,0 +1,4 @@
+
+FILESEXTRAPATHS_prepend := "${THISDIR}/${PN}_${PV}:"
+
+COMPATIBLE_MACHINE := "${COMPATIBLE_MACHINE}|(ccimx8x-sbc-pro)"
